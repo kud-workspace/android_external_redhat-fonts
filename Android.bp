@@ -1,0 +1,102 @@
+// Copyright (C) 2018 The Android Open Source Project
+// Copyright (C) 2021 KudProject Development
+// SPDX-License-Identifier: Apache-2.0
+
+filegroup {
+    name: "recovery_roboto-fonts_dep",
+    export_to_make_var: "recovery_roboto-fonts_dep",
+    srcs: [
+        "fonts/proportional/static/otf/*.otf",
+        "fonts/proportional/static/ttf/*.ttf",
+    ],
+}
+
+prebuilt_font {
+    name: "Roboto-Regular.ttf",
+    src: "fonts/proportional/static/ttf/RedHatDisplay-Regular.ttf",
+}
+
+prebuilt_font {
+    name: "Roboto-Bold.ttf",
+    src: "fonts/proportional/static/ttf/RedHatDisplay-Bold.ttf",
+}
+
+prebuilt_font {
+    name: "Roboto-Italic.ttf",
+    src: "fonts/proportional/static/ttf/RedHatDisplay-Italic.ttf",
+}
+
+prebuilt_font {
+    name: "Roboto-BoldItalic.ttf",
+    src: "fonts/proportional/static/ttf/RedHatDisplay-BoldItalic.ttf",
+}
+
+prebuilt_font {
+    name: "Roboto-Black.ttf",
+    src: "fonts/proportional/static/ttf/RedHatDisplay-Black.ttf",
+}
+
+prebuilt_font {
+    name: "Roboto-BlackItalic.ttf",
+    src: "fonts/proportional/static/ttf/RedHatDisplay-BlackItalic.ttf",
+}
+
+prebuilt_font {
+    name: "Roboto-Light.ttf",
+    src: "fonts/proportional/static/ttf/RedHatDisplay-Light.ttf",
+}
+
+prebuilt_font {
+    name: "Roboto-LightItalic.ttf",
+    src: "fonts/proportional/static/ttf/RedHatDisplay-LightItalic.ttf",
+}
+
+prebuilt_font {
+    name: "Roboto-Medium.ttf",
+    src: "fonts/proportional/static/ttf/RedHatDisplay-Medium.ttf",
+}
+
+prebuilt_font {
+    name: "Roboto-MediumItalic.ttf",
+    src: "fonts/proportional/static/ttf/RedHatDisplay-MediumItalic.ttf",
+}
+
+prebuilt_font {
+    name: "RobotoCondensed-Regular.ttf",
+    src: "fonts/proportional/static/ttf/RedHatText-Regular.ttf",
+}
+
+prebuilt_font {
+    name: "RobotoCondensed-Bold.ttf",
+    src: "fonts/proportional/static/ttf/RedHatText-Bold.ttf",
+}
+
+prebuilt_font {
+    name: "RobotoCondensed-Italic.ttf",
+    src: "fonts/proportional/static/ttf/RedHatText-Italic.ttf",
+}
+
+prebuilt_font {
+    name: "RobotoCondensed-BoldItalic.ttf",
+    src: "fonts/proportional/static/ttf/RedHatText-BoldItalic.ttf",
+}
+
+prebuilt_font {
+    name: "RobotoCondensed-Light.ttf",
+    src: "fonts/proportional/static/ttf/RedHatText-Light.ttf",
+}
+
+prebuilt_font {
+    name: "RobotoCondensed-LightItalic.ttf",
+    src: "fonts/proportional/static/ttf/RedHatText-LightItalic.ttf",
+}
+
+prebuilt_font {
+    name: "RobotoCondensed-Medium.ttf",
+    src: "fonts/proportional/static/ttf/RedHatText-Medium.ttf",
+}
+
+prebuilt_font {
+    name: "RobotoCondensed-MediumItalic.ttf",
+    src: "fonts/proportional/static/ttf/RedHatText-MediumItalic.ttf",
+}
